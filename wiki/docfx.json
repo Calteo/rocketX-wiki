@@ -3,8 +3,12 @@
     "content": [
       {
         "files": [
-          "articles/**.md",
-          "articles/**/toc.yml",
+          "about/**.md",
+          "about/**/toc.yml",
+          "faq/**.md",
+          "faq/**/toc.yml",
+          "learn/**.md",
+          "learn/**/toc.yml",
           "toc.yml",
           "*.md"
         ]
@@ -18,6 +22,12 @@
       }
     ],
     "dest": "_site",
+    "globalMetadata": {
+      "_appTitle": "SpaceX RUS Wiki",
+      "_appFooter": "Some footer needed here.",
+      "__global.improveThisDoc": "Make it a better wiki",
+      "__global.backToTop": "Beam me up Scotty!"
+    },
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
@@ -29,5 +39,5 @@
     "keepFileLink": false,
     "cleanupCacheHistory": false,
     "disableGitFeatures": false
+    }
   }
-}

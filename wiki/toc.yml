@@ -1,2 +1,6 @@
-- name: Articles
-  href: articles/
+- name: FAQ
+  href: faq/
+- name: About
+  href: about/
+- name: Learn more
+  href: learn/
