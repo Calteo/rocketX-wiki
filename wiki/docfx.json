@@ -33,8 +33,7 @@
     "template": [
       "default"
     ],
-    "postProcessors": [],
-    "markdownEngineName": "markdig",
+    "postProcessors": [],    
     "noLangKeyword": false,
     "keepFileLink": false,
     "cleanupCacheHistory": false,
