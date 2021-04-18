@@ -1,16 +1,16 @@
 # SpaceX Википедия
 
-О компании
+## О компании
 
-История SpaceX
+## История SpaceX
 - Unterpunkt1
 - unterpunkt2
 
-Сотрудники
+## Сотрудники
 
-Запускаемые ракеты и космические корабли
+## Запускаемые ракеты и космические корабли
 - Falcon 9
-  - Falcon 5.1
+- Falcon 5.1
 - Falcon Heavy
 - Dragon
 - Starship
