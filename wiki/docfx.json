@@ -5,6 +5,8 @@
         "files": [
           "about/**.md",
           "about/**/toc.yml",
+          "rockets/**.md",
+          "rockets/**/toc.yml",
           "faq/**.md",
           "faq/**/toc.yml",
           "learn/**.md",
@@ -17,7 +19,8 @@
     "resource": [
       {
         "files": [
-          "images/**"
+          "images/**",
+          "**/images/**"
         ]
       }
     ],
