@@ -26,10 +26,13 @@
     ],
     "dest": "_site",
     "globalMetadata": {
+      "_appName": "SpaceX RUS Wiki",
       "_appTitle": "SpaceX RUS Wiki",
       "_appFooter": "Some footer needed here.",
       "__global.improveThisDoc": "Make it a better wiki",
-      "__global.backToTop": "Beam me up Scotty!"
+      "__global.backToTop": "Beam me up Scotty!",
+      "__global.tocFilter": "Enter some text here...",
+      "_disableSideFilter": "true"
     },
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
@@ -37,10 +40,10 @@
       "default",
       "templates/discordfx"
     ],
-    "postProcessors": [],    
+    "postProcessors": [],
     "noLangKeyword": false,
     "keepFileLink": false,
     "cleanupCacheHistory": false,
-    "disableGitFeatures": false
-    }
+    "disableGitFeatures": true,    
+  }
   }
