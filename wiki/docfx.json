@@ -32,18 +32,18 @@
       "__global.improveThisDoc": "Make it a better wiki",
       "__global.backToTop": "Beam me up Scotty!",
       "__global.tocFilter": "Enter some text here...",
-      "_disableSideFilter": "true"
+      "__global.inThisArticle": "In this article"
     },
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
       "default",
-      "templates/discordfx"
+      "templates/darkfx"
     ],
-    "postProcessors": [],
+    "postProcessors": [],    
     "noLangKeyword": false,
     "keepFileLink": false,
     "cleanupCacheHistory": false,
-    "disableGitFeatures": true,    
+    "disableGitFeatures": true
   }
   }
