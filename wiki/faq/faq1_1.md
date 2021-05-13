@@ -1,7 +1,6 @@
 ---
-uid: faq1
-title: FAQ One
-toc.parent: faq
+title: FAQ One - Sub
+toc.parent: faq1
 ---
 # FAQ article one
 
