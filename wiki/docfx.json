@@ -12,7 +12,7 @@
           "learn/**.md",
           "learn/**/toc.yml",
           "toc.yml",
-          "*.md"
+          "*.md"         
         ]
       }
     ],
@@ -20,7 +20,8 @@
       {
         "files": [
           "images/**",
-          "**/images/**"
+          "**/images/**",
+          "logo.svg"
         ]
       }
     ],
