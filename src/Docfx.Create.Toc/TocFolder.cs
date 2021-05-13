@@ -89,7 +89,10 @@ namespace Docfx.Create.Toc
 
         public void WriteToc()
         {
-            using (var writer = new StreamWriter(Path.Combine(Folder.FullName, "toc.yml"), false, new UTF8Encoding(false)))
+            var filename = Path.Combine(Folder.FullName, "toc.yml");
+            Console.WriteLine($"write '{filename}'");
+
+            using (var writer = new StreamWriter(filename, false, new UTF8Encoding(false)))
             {
                 foreach (var item in Items)
                 {
