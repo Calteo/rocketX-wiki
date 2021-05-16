@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "Docfx.Create.Toc": {
-      "commandName": "Project",
-      "commandLineArgs": "..\\..\\..\\..\\..\\Wiki"
-    }
-  }
-}
