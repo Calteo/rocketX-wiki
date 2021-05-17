@@ -1,12 +1,9 @@
-- name: Learn
+- name: Overview
   href: index.md
 - name: Markdown Information
   href: markdown.md
 - name: Markdownref
   href: markdownref.md
 - name: Toc Main
-  href: tableOfContent.md
-  items:
-  - name: Toc Sub AddOn
-    href: tableOfContentAdd.md
-
+  href: tableOfContent/toc.yml
+  topicHref: tableOfContent.md

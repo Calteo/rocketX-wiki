@@ -1,6 +1,7 @@
 ---
 uid: faq
-title: FAQ
+title: Overview
+toc.tile: FAQ
 toc.order: 2
 ---
 # FAQ

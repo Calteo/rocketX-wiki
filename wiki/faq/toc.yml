@@ -1,4 +1,4 @@
-- name: FAQ
+- name: Overview
   href: index.md
   items:
   - name: FAQ One
