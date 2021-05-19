@@ -55,6 +55,24 @@ This can be done with gui: `git gui`. You also need this to commit your changes 
 
 This tool scans all markdown files in a folder and creates the toc.yaml files. The creation is based upon the yaml header in the markdown files.
 
+Each markdown file can have a yaml header. That is basically everything between two lines of `---` at the beginning of the file.
+Between the markers are key value pairs. Here is a sample.
+```
+---
+uid: rockets
+title: Overview
+toc.title: Rockets
+toc.order: 1
+---
+```
+
+|Key|Description|
+|---|---|
+|uid|Unique key that docfx uses to make references to this file|
+|title|Text that docfx uses to references to this file|
+|toc.title|Text that uses the Create.Toc tool to put this file into the toc above this folder. Only works for files named `index.md`.|
+|toc.order|Index of this file in the table of contents|
+
 ## Docfc.Watcher
 
 This tool is used to local testing of the process. It watches a folder and on any change it rund DocFX locally an serves the resulting html file at http://localhost:8080. 
