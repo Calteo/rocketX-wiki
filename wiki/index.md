@@ -1,8 +1,8 @@
-# SpaceX Википедия
+# Space Википедия
 
 ## О компании
 
-## История SpaceX
+## История Space
 - Unterpunkt1
 - unterpunkt2
 
