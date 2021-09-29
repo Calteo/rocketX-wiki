@@ -7,7 +7,7 @@ This page describes the various steps and tools to create the wiki.
 Any commit on the MAIN branch triggers a build process that excutes the following steps:
 1. Run a custom tool to create the table of content files (toc.yaml) in the wiki folder.
 2. Run DocFX to transform the markdown in the folder wiki into html files.
-3. Publish the html file at https://calteo.github.io/SpaceX-RUS-Wiki/
+3. Publish the html file at https://calteo.github.io/rocketX-wiki/
 
 # Edit
 
@@ -35,8 +35,8 @@ choco install docfx -y
 ```
 To keep everything up to date use `choco upgrade all -y`.
 
-Make clone of the wiki to a folder of your choice: `git clone https://github.com/Calteo/SpaceX-RUS-Wiki`
-This will create a folder `SpaceX-RUS-Wiki`. Change to the wiki folder with `cd SpaceX-RUS-Wiki\wiki`.
+Make clone of the wiki to a folder of your choice: `git clone https://github.com/Calteo/rocketX-wiki`
+This will create a folder `rocketX-wiki`. Change to the wiki folder with `cd rocketX-wiki\wiki`.
 
 Now you can start editing the files and create new ones.
 
