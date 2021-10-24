@@ -1,6 +1,6 @@
 ---
 uid: ariane5
-title: ariane5
+title: Ariane 5
 ---
 # Ariane 5
 
