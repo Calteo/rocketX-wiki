@@ -1,56 +1,58 @@
 {
-    "build":  {
-                  "content":  [
-                                  {
-                                      "files":  [
-                                                    "about/**.md",
-                                                    "about/**/toc.yml",
-                                                    "rockets/**.md",
-                                                    "rockets/**/toc.yml",
-                                                    "faq/**.md",
-                                                    "faq/**/toc.yml",
-                                                    "learn/**.md",
-                                                    "learn/**/toc.yml",
-                                                    "toc.yml",
-                                                    "*.md"
-                                                ]
-                                  }
-                              ],
-                  "resource":  [
-                                   {
-                                       "files":  [
-                                                     "images/**",
-                                                     "**/images/**",
-                                                     "logo.svg"
-                                                 ]
-                                   }
-                               ],
-                  "dest":  "_site",
-                  "globalMetadata":  {
-                                         "_appName":  "SpaceX RUS Wiki",
-                                         "_appTitle":  "SpaceX RUS Wiki",
-                                         "_appFooter":  "Updated",
-                                         "__global.improveThisDoc":  "Make it a better wiki",
-                                         "__global.backToTop":  "Beam me up Scotty!",
-                                         "__global.tocFilter":  "Enter some text here...",
-                                         "__global.inThisArticle":  "In this article"
-                                     },
-                  "globalMetadataFiles":  [
+  "build": {
+    "content": [
+      {
+        "files": [
+          "about/**.md",
+          "about/**/toc.yml",
+          "company/**.md",
+          "company/**/toc.yml",
+          "rockets/**.md",
+          "rockets/**/toc.yml",
+          "faq/**.md",
+          "faq/**/toc.yml",
+          "learn/**.md",
+          "learn/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**",
+          "**/images/**",
+          "logo.svg"
+        ]
+      }
+    ],
+    "dest": "_site",
+    "globalMetadata": {
+      "_appName": "SpaceX RUS Wiki",
+      "_appTitle": "SpaceX RUS Wiki",
+      "_appFooter": "Updated",
+      "__global.improveThisDoc": "Make it a better wiki",
+      "__global.backToTop": "Beam me up Scotty!",
+      "__global.tocFilter": "Enter some text here...",
+      "__global.inThisArticle": "In this article"
+    },
+    "globalMetadataFiles": [
 
-                                          ],
-                  "fileMetadataFiles":  [
+    ],
+    "fileMetadataFiles": [
 
-                                        ],
-                  "template":  [
-                                   "default",
-                                   "templates/darkfx"
-                               ],
-                  "postProcessors":  [
+    ],
+    "template": [
+      "default",
+      "templates/darkfx"
+    ],
+    "postProcessors": [
 
-                                     ],
-                  "noLangKeyword":  false,
-                  "keepFileLink":  false,
-                  "cleanupCacheHistory":  false,
-                  "disableGitFeatures":  true
-              }
+    ],
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": true
+  }
 }
