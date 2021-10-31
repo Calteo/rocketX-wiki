@@ -1,6 +1,6 @@
 # Space Википедия
 
-## О компании
+## <xref:company>
 
 ## История Space
 - Unterpunkt1
@@ -27,7 +27,7 @@
 
 Часто задаваемые вопросы
 
-<xref:CompanySpaceX>
+<xref:company>
 
 Учебные ресурсы
 

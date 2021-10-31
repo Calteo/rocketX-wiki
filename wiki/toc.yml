@@ -1,6 +1,8 @@
+- name: Company
+  href: company/
 - name: Rockets
   href: rockets/
-- name: Overview
+- name: FAQ
   href: faq/
 - name: Learn
   href: learn/

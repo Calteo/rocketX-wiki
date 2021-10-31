@@ -2,7 +2,7 @@
 uid: faq
 title: Q&A
 toc.title: FAQ
-toc.order: 2
+toc.order: 3
 ---
 # FAQ
 
