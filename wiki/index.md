@@ -1,36 +1,4 @@
 # Space Википедия
+![Title][title]
 
-## <xref:company>
-
-## История Space
-- Unterpunkt1
-- unterpunkt2
-
-## Сотрудники
-
-## Запускаемые ракеты и космические корабли
-- Falcon 9
-- Falcon 5.1
-- Falcon Heavy
-- Dragon
-- Starship
-
-Повторное использование
-
-Филиалы
-
-Вики-индекс
-
-Манифесты запусков
-
-История ступеней
-
-Часто задаваемые вопросы
-
-<xref:company>
-
-Учебные ресурсы
-
-SpaceX Информация
-
-Данные/архивные страницы
+[title]: images/main.jpg "Space"
