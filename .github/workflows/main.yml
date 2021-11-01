@@ -28,7 +28,7 @@ jobs:
       - name: RUnning
         run: echo "$GITHUB_WORKFLOW#$GITHUB_RUN_NUMBER"
       - name: Update docfx.json
-        run: echo "`jq '.build.globalMetadata._appFooter="Update ${{ $GITHUB_WORKFLOW }}#$GITHUB_RUN_NUMBER"' wiki/docfx.json`" > wiki/docfx.json
+        run: echo "`jq '.build.globalMetadata._appFooter="Update ${GITHUB_WORKFLOW}#${GITHUB_RUN_NUMBER}"' wiki/docfx.json`" > wiki/docfx.json
       - name: read docfx.json
         run: cat wiki/docfx.json
 
