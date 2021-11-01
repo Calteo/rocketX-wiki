@@ -25,10 +25,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: RUnning
-        run: echo "$GITHUB_WORKFLOW#$GITHUB_RUN_NUMBER"
+      - name: Get Timestamp
+        run: echo "NOW::$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
+      - name: Running
+        run: echo "$GITHUB_WORKFLOW#$GITHUB_RUN_NUMBER at $NOW"
       - name: Update docfx.json
-        run: echo "`jq '.build.globalMetadata._appFooter="Update ${GITHUB_WORKFLOW}#${GITHUB_RUN_NUMBER}"' wiki/docfx.json`" > wiki/docfx.json
+        run: echo "`jq '.build.globalMetadata._appFooter="Update $GITHUB_WORKFLOW#$GITHUB_RUN_NUMBER at $NOW"' wiki/docfx.json`" > wiki/docfx.json
       - name: read docfx.json
         run: cat wiki/docfx.json
 
