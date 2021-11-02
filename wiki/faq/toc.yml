@@ -1,4 +1,4 @@
-- name: Q&A
+- name: FAQ
   href: index.md
   items:
   - name: FAQ One
@@ -6,7 +6,7 @@
     items:
     - name: FAQ One - Sub
       href: faq1_1.md
-- name: FAQ Three
-  href: faq3.md
 - name: FAQ Two
   href: faq2.md
+- name: FAQ Three
+  href: faq3.md

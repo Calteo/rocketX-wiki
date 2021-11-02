@@ -1,6 +1,5 @@
 ---
 title: FAQ Two
-toc.order: 2
 ---
 # FAQ article II
 

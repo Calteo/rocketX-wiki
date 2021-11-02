@@ -1,7 +1,6 @@
 ---
 title: FAQ One - Sub
-toc.parent: faq1
 ---
-# FAQ article one
+# FAQ article one sub page
 
-One to start 
+One to start and this as a sub page

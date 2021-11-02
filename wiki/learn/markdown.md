@@ -2,10 +2,6 @@
 uid: MarkdownID
 title: Markdown Information
 ---
-# 
-
-# [Heise Artikel](https://www.heise.de/mac-and-i/artikel/Markdown-bei-Mac-und-iOS-Apps-Tipps-und-Cheat-Sheet-2105025.html)
-# [Heise Übersicht](https://www.heise.de/mac-and-i/downloads/65/1/1/6/7/1/0/3/Markdown-CheatSheet-Deutsch.pdf)
 
 # Bild einbinden
 

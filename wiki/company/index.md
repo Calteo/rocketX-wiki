@@ -1,8 +1,6 @@
 ---
 uid: company
 title: О компании SpaceX
-toc.title: Company
-toc.order: 1
 ---
 # О компании SpaceX
 Space Exploration Technologies Corp., известная как SpaceX, является частным американским производителем аэрокосмической техники и космических транспортных 

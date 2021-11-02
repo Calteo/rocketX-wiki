@@ -1,8 +1,6 @@
 ---
-title: Overview
-toc.title: Learn
-toc.order: 3
+title: Instructions
 ---
-# Learn
+# Instructions
 
-Learn page
+Instructions page
