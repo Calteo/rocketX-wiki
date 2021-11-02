@@ -11,8 +11,8 @@
           "rockets/**/toc.yml",
           "faq/**.md",
           "faq/**/toc.yml",
-          "learn/**.md",
-          "learn/**/toc.yml",
+          "instructions/**.md",
+          "instructions/**/toc.yml",
           "toc.yml",
           "*.md"
         ]
@@ -29,9 +29,9 @@
     ],
     "dest": "_site",
     "globalMetadata": {
-      "_appName": "SpaceX RUS Wiki",
-      "_appTitle": "SpaceX RUS Wiki",
-      "_appFooter": "Updated",
+      "_appName": "RocketX Wiki",
+      "_appTitle": "RocketX Wiki",
+      "_appFooter": "Updated - Unknown",
       "__global.improveThisDoc": "Make it a better wiki",
       "__global.backToTop": "Beam me up Scotty!",
       "__global.tocFilter": "Enter some text here...",
@@ -41,7 +41,6 @@
 
     ],
     "fileMetadataFiles": [
-
     ],
     "template": [
       "default",

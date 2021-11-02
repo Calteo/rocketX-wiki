@@ -1,7 +1,6 @@
 ---
 uid: faq
 title: FAQ
-
 ---
 # FAQ
 

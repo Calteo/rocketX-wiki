@@ -1,9 +1,11 @@
 - name: Overview
   href: index.md
-- name: Markdown Information
+- name: More Markdown
   href: markdown.md
-- name: Markdownref
+- name: Pictures
+  href: pictures.md
+- name: References
   href: markdownref.md
-- name: Toc Main
+- name: Table of Content
   href: tableOfContent/toc.yml
   topicHref: tableOfContent.md

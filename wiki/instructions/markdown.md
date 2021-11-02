@@ -1,81 +1,48 @@
-﻿---
-uid: MarkdownID
-title: Markdown Information
----
+﻿# Markers
+These offer a possibility to make something really visible.
 
-# Bild einbinden
-
-Bild in den Ordner `images` einfügen.
-
-```
-![SpaceX Logo][spaceX]
-
-[spaceX]: ../images/spacex.png "SpaceX Tooltip"
-```
-
-![SpaceX Logo][spaceX]
-
-[spaceX]: ../images/spacex.png "SpaceX Tooltip"
-
-oder 
-```
-![SpaceX Logo](../images/spacex.png "SpaceX Tooltip")
-```
-![SpaceX Logo](../images/spacex.png "SpaceX Tooltip")
-
-<!---
-Ein Kommentar
--->
-
-geht auch in Tabellen :smile:
-
-|Spalte 1|Spalte 2|
-|:------:|:-------:|
-|![SpaceX Logo](../images/spacex.png "SpaceX Tooltip1")|![SpaceX Logo](../images/spacex.png "SpaceX Tooltip2")|
-
-# Hinweise
-
+Input:
 ```
 > [!NOTE]
-> Eine Notiz.
+> Some note.
 > [!WARNING]
-> Eine Warnung.
+> Careful! this is a warning.
 > [!IMPORTANT]
-> Eine wichtige Mitteilung
+> You better pay attention!
 ```
-
+Output:
 > [!NOTE]
-> Eine Notiz.
+> Some note.
 > [!WARNING]
-> Eine Warnung.
+> Careful! this is a warning.
 > [!IMPORTANT]
-> Eine wichtige Mitteilung
+> You better pay attention!
 
-# Tabulatoren
+# Tab pages
+
+You can have tabular sub pages. Look at the source how this is done.
 
 # [Tab Text 1](#tab/tabid-1)
-
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
 At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
 # [Tab Text 2](#tab/tabid-2)
-
-
 Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril 
 delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
 
-
 # [Tab Text 3](#tab/tabid-3)
-
 Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
 Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla 
 facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. 
 
 ***
+<!-- you need three * to end the tabbing -->
 
 # Emoji
 
-##People
+Emojis are fun to use :smile:.
+
+## People
 
 | :bowtie: `:bowtie:` | :smile: `:smile:` | :laughing: `:laughing:` |
 |---|---|---|
