@@ -9,6 +9,8 @@
           "company/**/toc.yml",
           "rockets/**.md",
           "rockets/**/toc.yml",
+          "instructions/**.md",
+          "instructions/**/toc.yml",
           "faq/**.md",
           "faq/**/toc.yml",
           "toc.yml",
