@@ -11,8 +11,6 @@
           "rockets/**/toc.yml",
           "faq/**.md",
           "faq/**/toc.yml",
-          "instructions/**.md",
-          "instructions/**/toc.yml",
           "toc.yml",
           "*.md"
         ]
