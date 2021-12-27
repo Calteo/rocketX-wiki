@@ -7,4 +7,4 @@ This is the source for the generated wiki.
 
 View it at https://calteo.github.io/rocketX-wiki/
 
-Read the [instructions](instructions/index.md) on how to edit the pages.
+Read the [instructions](instructions.md) on how to edit the pages.
