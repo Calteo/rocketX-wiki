@@ -1,8 +1,3 @@
----
-title: Rockets
-toc.title: Rockets
-toc.order: 2
----
 # Rockets from SpaceX
 
 ## <xref:falcon9>
